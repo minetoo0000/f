@@ -1,11 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Hㅌㄴㄴㅇ - my site</title>
+    <link rel="stylesheet" href="css/font-face.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/fullpage.js"></script>
     <script>
         $(document).ready(function () {
             $("#fullpage").fullpage({
@@ -17,6 +22,77 @@
     </script>
 </head>
 <body>
-
+    <div id="fullpage">
+        <header class="section">
+            <div class="container">
+                <div class="container__wrapper">
+                    <div class="container__title">
+                        <div class="animation bounceIn">'&nbsp;&nbsp;^&nbsp;&nbsp;'</div>
+                        <div class="animation bounceIn">나의 자기소개 사이트</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="section">
+            <div class="container">
+                <div class="container__wrapper">
+                    <img src="assets/img/out_photo.png" alt="프로필 사진 로드 실패" class="container__profile">
+                    <div class="container__text">
+                        이름 : 김효헌<br>학교 : 선린인터넷고등학교<br>
+                        <a href="https://github.com/IWOP" target="_blank">
+                            <img class="container__link__img" src="assets/img/githubicon.png" alt="github 파비콘 불러오기 실패">
+                        </a>
+                        <a href="https://www.facebook.com/sunrinIwop" target="_blank">
+                            <img class="container__link__img" src="assets/img/facebookicon.png" alt="facebook 파비콘 불러오기 실패">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="container__wrapper">
+                    <img class="container__introduce__img" alt="이미지 불러오기 실패" src="assets/img/memed-io-output.jpeg">
+                    <div class="container__text">C언어를 기본으로 사용하고있습니다.<br>Javascript는 사용한적이 별로 없어 아직 초보 수준입니다.</div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="container__wrapper">
+                    <div class="container__wrapper__title">좋아하는 것!</div>
+                    <div class="container__wrapper__content">
+                        <div class="container1__wrapper">
+                            <div class="container__wrapper__content__text">복잡한 알고리즘을 실행 한번만에 완성했을 때. 또, 프로젝트를 완성했을 때.</div>
+                        </div>
+                        <div class="container1__wrapper">
+                            <div class="container__wrapper__content__text">게임 - Those who remain (roblox)</div>
+                        </div>
+                        <div class="container1__wrapper">
+                            <div class="container__wrapper__content__text">이불</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="container__wrapper">
+                    <div class="container__wrapper__title">싫어하는 것!</div>
+                    <div class="container__wrapper__content">
+                        <div class="container1__wrapper">
+                            <div class="container__wrapper__content__text">음식 - 샐러리</div>
+                        </div>
+                        <div class="container1__wrapper">
+                            <div class="container__wrapper__content__text">지각. 막상 하면 조금 싫은 감이 있는 것..</div>
+                        </div>
+                        <div class="container1__wrapper">
+                            <div class="container__wrapper__content__text">유튜브로 시간을 낭비하고 있다는 것을 자각했을 때.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
